@@ -30,6 +30,23 @@ smtp_user:
     port: 25
 
 
+# Added shared_mode section for Shared MTA mode
+shared_mode:
+  gmail:
+    smtp_server: smtp.gmail.com
+    smtp_port: 587
+    username: your_email@gmail.com
+    password: your_password
+
+# Added direct_mode section for Direct MTA mode
+direct_mode:
+  gmail:
+    smtp_server: smtp.gmail.com
+    smtp_port: 587
+    username: your_email@gmail.com
+    password: your_password
+
+
 attack:
   default:
     subject: "Normal Email Test!"
@@ -174,4 +191,3 @@ attack:
     body: "A14: Right-to-left Override Attack in domain."
     description: "A14: Right-to-left Override Attack in domain."
     defense: "You should reject emails which contain these special characters in the sender address or add a warning on UI."
-
