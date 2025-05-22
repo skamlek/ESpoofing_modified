@@ -1,0 +1,51 @@
+default: # Set some Global default values
+  subject: "Test subject"
+  body: "This is a test email for ESpoofing tool validation"
+
+
+target: #target victim
+  default:
+    username: 'test@example.com'
+    host: example.com
+    port: 25
+    use_tls: False
+    use_ssl: False
+    debug_level: True
+
+
+smtp_user:
+  default:
+    username: test@example.com
+    password: testpassword
+    host: localhost
+    port: 25
+    use_tls: False
+    use_ssl: False
+    debug_level: True
+
+
+attack:
+  default:
+    subject: "ESpoofing Test Email"
+    body: "This is a test of the ESpoofing tool in a controlled environment."
+    html:
+    attachments:
+    date:
+    mail_from:
+    mime_from:
+    to:
+    cc:
+    bcc:
+    reply_to:
+    mail_to:
+    extra_headers:
+    helo:
+    autoencode: False
+
+  # A1 attack for testing
+  A1:
+    mail_from: "test@example.com"
+    subject: "ESpoofing Test - A1 Attack"
+    body: "A1: The Inconsistency between Auth username and Mail From headers."
+    description: "A1: The Inconsistency between Auth username and Mail From headers."
+    defense: "Prohibit sending such emails!"

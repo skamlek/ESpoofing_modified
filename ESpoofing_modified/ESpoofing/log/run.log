@@ -1,0 +1,286 @@
+[DEBUG  ] [2025-05-22 00:33:56,326] [abnf_parser.py:322] Get ABNF list from RFC5322
+[DEBUG  ] [2025-05-22 00:33:56,329] [abnf_parser.py:177] Generate from ABNF rule: from
+[DEBUG  ] [2025-05-22 00:33:56,329] [abnf_parser.py:186] Deep into next Node:    "From:" mailbox-list CRLF
+[DEBUG  ] [2025-05-22 00:33:56,329] [abnf_parser.py:191] None
+[DEBUG  ] [2025-05-22 00:33:56,329] [abnf_parser.py:177] Generate from ABNF rule: mailbox-list
+[DEBUG  ] [2025-05-22 00:33:56,329] [abnf_parser.py:186] Deep into next Node:    (mailbox *("," mailbox)) / obs-mbox-list
+[DEBUG  ] [2025-05-22 00:33:56,330] [abnf_parser.py:191] None
+[DEBUG  ] [2025-05-22 00:33:56,330] [abnf_parser.py:177] Generate from ABNF rule: obs-mbox-list
+[DEBUG  ] [2025-05-22 00:33:56,330] [abnf_parser.py:186] Deep into next Node:    *([CFWS] ",") mailbox *("," [mailbox / CFWS])
+[DEBUG  ] [2025-05-22 00:33:56,331] [abnf_parser.py:191] None
+[DEBUG  ] [2025-05-22 00:33:56,331] [abnf_parser.py:177] Generate from ABNF rule: mailbox
+[DEBUG  ] [2025-05-22 00:33:56,331] [abnf_parser.py:186] Deep into next Node:    name-addr / addr-spec
+[DEBUG  ] [2025-05-22 00:33:56,332] [abnf_parser.py:191] None
+[DEBUG  ] [2025-05-22 00:33:56,332] [abnf_parser.py:177] Generate from ABNF rule: name-addr
+[DEBUG  ] [2025-05-22 00:33:56,332] [abnf_parser.py:186] Deep into next Node:    [display-name] angle-addr
+[DEBUG  ] [2025-05-22 00:33:56,332] [abnf_parser.py:191] None
+[DEBUG  ] [2025-05-22 00:33:56,332] [abnf_parser.py:177] Generate from ABNF rule: angle-addr
+[DEBUG  ] [2025-05-22 00:33:56,332] [abnf_parser.py:186] Deep into next Node:    [CFWS] "<" addr-spec ">" [CFWS] / obs-angle-addr
+[DEBUG  ] [2025-05-22 00:33:56,333] [abnf_parser.py:191] None
+[DEBUG  ] [2025-05-22 00:33:56,333] [abnf_parser.py:177] Generate from ABNF rule: CFWS
+[DEBUG  ] [2025-05-22 00:33:56,333] [abnf_parser.py:177] Generate from ABNF rule: addr-spec
+[DEBUG  ] [2025-05-22 00:33:56,333] [abnf_parser.py:186] Deep into next Node:    local-part "@" domain
+[DEBUG  ] [2025-05-22 00:33:56,333] [abnf_parser.py:191] None
+[DEBUG  ] [2025-05-22 00:33:56,334] [abnf_parser.py:177] Generate from ABNF rule: local-part
+[DEBUG  ] [2025-05-22 00:33:56,334] [abnf_parser.py:177] Generate from ABNF rule: domain
+[DEBUG  ] [2025-05-22 00:33:56,334] [abnf_parser.py:177] Generate from ABNF rule: CRLF
+[DEBUG  ] [2025-05-22 00:33:56,334] [abnf_parser.py:177] Generate from ABNF rule: from
+[DEBUG  ] [2025-05-22 00:33:56,334] [abnf_parser.py:186] Deep into next Node:    "From:" mailbox-list CRLF
+[DEBUG  ] [2025-05-22 00:33:56,334] [abnf_parser.py:191] None
+[DEBUG  ] [2025-05-22 00:33:56,334] [abnf_parser.py:177] Generate from ABNF rule: mailbox-list
+[DEBUG  ] [2025-05-22 00:33:56,334] [abnf_parser.py:186] Deep into next Node:    (mailbox *("," mailbox)) / obs-mbox-list
+[DEBUG  ] [2025-05-22 00:33:56,335] [abnf_parser.py:191] None
+[DEBUG  ] [2025-05-22 00:33:56,335] [abnf_parser.py:177] Generate from ABNF rule: obs-mbox-list
+[DEBUG  ] [2025-05-22 00:33:56,335] [abnf_parser.py:186] Deep into next Node:    *([CFWS] ",") mailbox *("," [mailbox / CFWS])
+[DEBUG  ] [2025-05-22 00:33:56,336] [abnf_parser.py:191] None
+[DEBUG  ] [2025-05-22 00:33:56,336] [abnf_parser.py:177] Generate from ABNF rule: mailbox
+[DEBUG  ] [2025-05-22 00:33:56,336] [abnf_parser.py:186] Deep into next Node:    name-addr / addr-spec
+[DEBUG  ] [2025-05-22 00:33:56,336] [abnf_parser.py:191] None
+[DEBUG  ] [2025-05-22 00:33:56,336] [abnf_parser.py:177] Generate from ABNF rule: name-addr
+[DEBUG  ] [2025-05-22 00:33:56,336] [abnf_parser.py:186] Deep into next Node:    [display-name] angle-addr
+[DEBUG  ] [2025-05-22 00:33:56,337] [abnf_parser.py:191] None
+[DEBUG  ] [2025-05-22 00:33:56,337] [abnf_parser.py:177] Generate from ABNF rule: angle-addr
+[DEBUG  ] [2025-05-22 00:33:56,337] [abnf_parser.py:186] Deep into next Node:    [CFWS] "<" addr-spec ">" [CFWS] / obs-angle-addr
+[DEBUG  ] [2025-05-22 00:33:56,337] [abnf_parser.py:191] None
+[DEBUG  ] [2025-05-22 00:33:56,338] [abnf_parser.py:177] Generate from ABNF rule: addr-spec
+[DEBUG  ] [2025-05-22 00:33:56,338] [abnf_parser.py:186] Deep into next Node:    local-part "@" domain
+[DEBUG  ] [2025-05-22 00:33:56,338] [abnf_parser.py:191] None
+[DEBUG  ] [2025-05-22 00:33:56,338] [abnf_parser.py:177] Generate from ABNF rule: local-part
+[DEBUG  ] [2025-05-22 00:33:56,338] [abnf_parser.py:177] Generate from ABNF rule: domain
+[DEBUG  ] [2025-05-22 00:33:56,338] [abnf_parser.py:177] Generate from ABNF rule: mailbox
+[DEBUG  ] [2025-05-22 00:33:56,338] [abnf_parser.py:186] Deep into next Node:    name-addr / addr-spec
+[DEBUG  ] [2025-05-22 00:33:56,338] [abnf_parser.py:191] None
+[DEBUG  ] [2025-05-22 00:33:56,339] [abnf_parser.py:177] Generate from ABNF rule: addr-spec
+[DEBUG  ] [2025-05-22 00:33:56,339] [abnf_parser.py:186] Deep into next Node:    local-part "@" domain
+[DEBUG  ] [2025-05-22 00:33:56,339] [abnf_parser.py:191] None
+[DEBUG  ] [2025-05-22 00:33:56,339] [abnf_parser.py:177] Generate from ABNF rule: local-part
+[DEBUG  ] [2025-05-22 00:33:56,339] [abnf_parser.py:177] Generate from ABNF rule: domain
+[DEBUG  ] [2025-05-22 00:33:56,339] [abnf_parser.py:177] Generate from ABNF rule: CFWS
+[DEBUG  ] [2025-05-22 00:33:56,339] [abnf_parser.py:177] Generate from ABNF rule: mailbox
+[DEBUG  ] [2025-05-22 00:33:56,339] [abnf_parser.py:186] Deep into next Node:    name-addr / addr-spec
+[DEBUG  ] [2025-05-22 00:33:56,340] [abnf_parser.py:191] None
+[DEBUG  ] [2025-05-22 00:33:56,340] [abnf_parser.py:177] Generate from ABNF rule: addr-spec
+[DEBUG  ] [2025-05-22 00:33:56,340] [abnf_parser.py:186] Deep into next Node:    local-part "@" domain
+[DEBUG  ] [2025-05-22 00:33:56,340] [abnf_parser.py:191] None
+[DEBUG  ] [2025-05-22 00:33:56,340] [abnf_parser.py:177] Generate from ABNF rule: local-part
+[DEBUG  ] [2025-05-22 00:33:56,340] [abnf_parser.py:177] Generate from ABNF rule: domain
+[DEBUG  ] [2025-05-22 00:33:56,340] [abnf_parser.py:177] Generate from ABNF rule: CRLF
+[DEBUG  ] [2025-05-22 00:33:56,340] [abnf_parser.py:177] Generate from ABNF rule: from
+[DEBUG  ] [2025-05-22 00:33:56,340] [abnf_parser.py:186] Deep into next Node:    "From:" mailbox-list CRLF
+[DEBUG  ] [2025-05-22 00:33:56,340] [abnf_parser.py:191] None
+[DEBUG  ] [2025-05-22 00:33:56,341] [abnf_parser.py:177] Generate from ABNF rule: mailbox-list
+[DEBUG  ] [2025-05-22 00:33:56,341] [abnf_parser.py:186] Deep into next Node:    (mailbox *("," mailbox)) / obs-mbox-list
+[DEBUG  ] [2025-05-22 00:33:56,341] [abnf_parser.py:191] None
+[DEBUG  ] [2025-05-22 00:33:56,341] [abnf_parser.py:177] Generate from ABNF rule: mailbox
+[DEBUG  ] [2025-05-22 00:33:56,341] [abnf_parser.py:186] Deep into next Node:    name-addr / addr-spec
+[DEBUG  ] [2025-05-22 00:33:56,342] [abnf_parser.py:191] None
+[DEBUG  ] [2025-05-22 00:33:56,342] [abnf_parser.py:177] Generate from ABNF rule: addr-spec
+[DEBUG  ] [2025-05-22 00:33:56,342] [abnf_parser.py:186] Deep into next Node:    local-part "@" domain
+[DEBUG  ] [2025-05-22 00:33:56,342] [abnf_parser.py:191] None
+[DEBUG  ] [2025-05-22 00:33:56,342] [abnf_parser.py:177] Generate from ABNF rule: local-part
+[DEBUG  ] [2025-05-22 00:33:56,342] [abnf_parser.py:177] Generate from ABNF rule: domain
+[DEBUG  ] [2025-05-22 00:33:56,342] [abnf_parser.py:177] Generate from ABNF rule: mailbox
+[DEBUG  ] [2025-05-22 00:33:56,342] [abnf_parser.py:186] Deep into next Node:    name-addr / addr-spec
+[DEBUG  ] [2025-05-22 00:33:56,343] [abnf_parser.py:191] None
+[DEBUG  ] [2025-05-22 00:33:56,343] [abnf_parser.py:177] Generate from ABNF rule: addr-spec
+[DEBUG  ] [2025-05-22 00:33:56,343] [abnf_parser.py:186] Deep into next Node:    local-part "@" domain
+[DEBUG  ] [2025-05-22 00:33:56,343] [abnf_parser.py:191] None
+[DEBUG  ] [2025-05-22 00:33:56,343] [abnf_parser.py:177] Generate from ABNF rule: local-part
+[DEBUG  ] [2025-05-22 00:33:56,343] [abnf_parser.py:177] Generate from ABNF rule: domain
+[DEBUG  ] [2025-05-22 00:33:56,343] [abnf_parser.py:177] Generate from ABNF rule: CRLF
+[DEBUG  ] [2025-05-22 00:33:56,343] [abnf_parser.py:177] Generate from ABNF rule: from
+[DEBUG  ] [2025-05-22 00:33:56,343] [abnf_parser.py:186] Deep into next Node:    "From:" mailbox-list CRLF
+[DEBUG  ] [2025-05-22 00:33:56,344] [abnf_parser.py:191] None
+[DEBUG  ] [2025-05-22 00:33:56,344] [abnf_parser.py:177] Generate from ABNF rule: mailbox-list
+[DEBUG  ] [2025-05-22 00:33:56,344] [abnf_parser.py:186] Deep into next Node:    (mailbox *("," mailbox)) / obs-mbox-list
+[DEBUG  ] [2025-05-22 00:33:56,344] [abnf_parser.py:191] None
+[DEBUG  ] [2025-05-22 00:33:56,345] [abnf_parser.py:177] Generate from ABNF rule: mailbox
+[DEBUG  ] [2025-05-22 00:33:56,345] [abnf_parser.py:186] Deep into next Node:    name-addr / addr-spec
+[DEBUG  ] [2025-05-22 00:33:56,345] [abnf_parser.py:191] None
+[DEBUG  ] [2025-05-22 00:33:56,345] [abnf_parser.py:177] Generate from ABNF rule: addr-spec
+[DEBUG  ] [2025-05-22 00:33:56,345] [abnf_parser.py:186] Deep into next Node:    local-part "@" domain
+[DEBUG  ] [2025-05-22 00:33:56,345] [abnf_parser.py:191] None
+[DEBUG  ] [2025-05-22 00:33:56,345] [abnf_parser.py:177] Generate from ABNF rule: local-part
+[DEBUG  ] [2025-05-22 00:33:56,345] [abnf_parser.py:177] Generate from ABNF rule: domain
+[DEBUG  ] [2025-05-22 00:33:56,345] [abnf_parser.py:177] Generate from ABNF rule: CRLF
+[DEBUG  ] [2025-05-22 00:33:56,346] [abnf_parser.py:177] Generate from ABNF rule: from
+[DEBUG  ] [2025-05-22 00:33:56,346] [abnf_parser.py:186] Deep into next Node:    "From:" mailbox-list CRLF
+[DEBUG  ] [2025-05-22 00:33:56,346] [abnf_parser.py:191] None
+[DEBUG  ] [2025-05-22 00:33:56,346] [abnf_parser.py:177] Generate from ABNF rule: mailbox-list
+[DEBUG  ] [2025-05-22 00:33:56,346] [abnf_parser.py:186] Deep into next Node:    (mailbox *("," mailbox)) / obs-mbox-list
+[DEBUG  ] [2025-05-22 00:33:56,347] [abnf_parser.py:191] None
+[DEBUG  ] [2025-05-22 00:33:56,347] [abnf_parser.py:177] Generate from ABNF rule: obs-mbox-list
+[DEBUG  ] [2025-05-22 00:33:56,347] [abnf_parser.py:186] Deep into next Node:    *([CFWS] ",") mailbox *("," [mailbox / CFWS])
+[DEBUG  ] [2025-05-22 00:33:56,347] [abnf_parser.py:191] None
+[DEBUG  ] [2025-05-22 00:33:56,348] [abnf_parser.py:177] Generate from ABNF rule: mailbox
+[DEBUG  ] [2025-05-22 00:33:56,348] [abnf_parser.py:186] Deep into next Node:    name-addr / addr-spec
+[DEBUG  ] [2025-05-22 00:33:56,348] [abnf_parser.py:191] None
+[DEBUG  ] [2025-05-22 00:33:56,348] [abnf_parser.py:177] Generate from ABNF rule: name-addr
+[DEBUG  ] [2025-05-22 00:33:56,348] [abnf_parser.py:186] Deep into next Node:    [display-name] angle-addr
+[DEBUG  ] [2025-05-22 00:33:56,348] [abnf_parser.py:191] None
+[DEBUG  ] [2025-05-22 00:33:56,348] [abnf_parser.py:177] Generate from ABNF rule: angle-addr
+[DEBUG  ] [2025-05-22 00:33:56,348] [abnf_parser.py:186] Deep into next Node:    [CFWS] "<" addr-spec ">" [CFWS] / obs-angle-addr
+[DEBUG  ] [2025-05-22 00:33:56,349] [abnf_parser.py:191] None
+[DEBUG  ] [2025-05-22 00:33:56,349] [abnf_parser.py:177] Generate from ABNF rule: obs-angle-addr
+[DEBUG  ] [2025-05-22 00:33:56,349] [abnf_parser.py:186] Deep into next Node:    [CFWS] "<" obs-route addr-spec ">" [CFWS]
+[DEBUG  ] [2025-05-22 00:33:56,350] [abnf_parser.py:191] None
+[DEBUG  ] [2025-05-22 00:33:56,350] [abnf_parser.py:177] Generate from ABNF rule: CFWS
+[DEBUG  ] [2025-05-22 00:33:56,350] [abnf_parser.py:177] Generate from ABNF rule: obs-route
+[DEBUG  ] [2025-05-22 00:33:56,350] [abnf_parser.py:186] Deep into next Node:    obs-domain-list ":"
+[DEBUG  ] [2025-05-22 00:33:56,350] [abnf_parser.py:191] None
+[DEBUG  ] [2025-05-22 00:33:56,350] [abnf_parser.py:177] Generate from ABNF rule: obs-domain-list
+[DEBUG  ] [2025-05-22 00:33:56,350] [abnf_parser.py:177] Generate from ABNF rule: addr-spec
+[DEBUG  ] [2025-05-22 00:33:56,350] [abnf_parser.py:186] Deep into next Node:    local-part "@" domain
+[DEBUG  ] [2025-05-22 00:33:56,351] [abnf_parser.py:191] None
+[DEBUG  ] [2025-05-22 00:33:56,351] [abnf_parser.py:177] Generate from ABNF rule: local-part
+[DEBUG  ] [2025-05-22 00:33:56,351] [abnf_parser.py:177] Generate from ABNF rule: domain
+[DEBUG  ] [2025-05-22 00:33:56,351] [abnf_parser.py:177] Generate from ABNF rule: CRLF
+[DEBUG  ] [2025-05-22 00:33:56,351] [pre_fuzz.py:53 ] ['fuzz_insert_before_space', 'fuzz_insert_after_space', 'fuzz_insert_first_space', 'fuzz_IDN_domain', 'fuzz_multiple_from1', 'fuzz_multiple_from2', 'fuzz_multiple_from3', 'fuzz_multiple_from4', 'fuzz_encoding_from1', 'fuzz_encoding_from2', 'fuzz_truncate_string1', 'fuzz_truncate_string2', 'fuzz_truncate_string3', 'fuzz_rtl_string']
+[DEBUG  ] [2025-05-22 00:33:56,351] [pre_fuzz.py:59 ] b'From :(\r\n)<key@icloud.com>\r\n'
+[DEBUG  ] [2025-05-22 00:33:56,351] [pre_fuzz.py:59 ] b'From: (\r\n)<key@icloud.com>\r\n'
+[DEBUG  ] [2025-05-22 00:33:56,351] [pre_fuzz.py:59 ] b' From:(\r\n)<key@icloud.com>\r\n'
+[DEBUG  ] [2025-05-22 00:33:56,351] [pre_fuzz.py:59 ] b'From: <admin1@xn--80aa1cn6g67a.com>'
+[DEBUG  ] [2025-05-22 00:33:56,352] [pre_fuzz.py:59 ] b'From: <Oscar@attack.com>\r\nFrom:(\r\n)<key@icloud.com>\r\n'
+[DEBUG  ] [2025-05-22 00:33:56,352] [pre_fuzz.py:59 ] b' From: <Oscar@attack.com>\r\nFrom:(\r\n)<key@icloud.com>\r\n'
+[DEBUG  ] [2025-05-22 00:33:56,352] [pre_fuzz.py:59 ] b' FrOM: <Oscar@attack.com>\r\nFrom:(\r\n)<key@icloud.com>\r\n'
+[DEBUG  ] [2025-05-22 00:33:56,352] [pre_fuzz.py:59 ] b' From\xc3\xbf: <Oscar@attack.com>\r\nFrom:(\r\n)<key@icloud.com>\r\n'
+[DEBUG  ] [2025-05-22 00:33:56,352] [pre_fuzz.py:59 ] b'From: <=?utf-8?RnJvbTooDQopPGtleUBpY2xvdWQuY29tPg0K=?=>'
+[DEBUG  ] [2025-05-22 00:33:56,352] [pre_fuzz.py:59 ] b'From: <=?utf-8?RnJvbTooDQopPGtleUBpY2xvdWQuY29tPg0K=?=>\x00@attack.com'
+[DEBUG  ] [2025-05-22 00:33:56,352] [pre_fuzz.py:59 ] b'From:<Alice@a.com\x00attack.com>'
+[DEBUG  ] [2025-05-22 00:33:56,352] [pre_fuzz.py:59 ] b'From:<Alice@a.com\xef\xbf\xbfattack.com>'
+[DEBUG  ] [2025-05-22 00:33:56,352] [pre_fuzz.py:59 ] b'From:<Alice@a.com}attack.com>'
+[DEBUG  ] [2025-05-22 00:33:56,352] [pre_fuzz.py:59 ] b'From:<\xe2\x80\xaemoc.a@\xe2\x80\xadalice'
+[DEBUG  ] [2025-05-22 00:33:56,352] [pre_fuzz.py:59 ] b'From :,<key@outlook.com>,key@ymail.com.cn,(hi),,,webmaster@ymail.com\r\n'
+[DEBUG  ] [2025-05-22 00:33:56,352] [pre_fuzz.py:59 ] b'From: ,<key@outlook.com>,key@ymail.com.cn,(hi),,,webmaster@ymail.com\r\n'
+[DEBUG  ] [2025-05-22 00:33:56,352] [pre_fuzz.py:59 ] b' From:,<key@outlook.com>,key@ymail.com.cn,(hi),,,webmaster@ymail.com\r\n'
+[DEBUG  ] [2025-05-22 00:33:56,352] [pre_fuzz.py:59 ] b'From: <admin1@xn--80aa1cn6g67a.com>'
+[DEBUG  ] [2025-05-22 00:33:56,352] [pre_fuzz.py:59 ] b'From: <Oscar@attack.com>\r\nFrom:,<key@outlook.com>,key@ymail.com.cn,(hi),,,webmaster@ymail.com\r\n'
+[DEBUG  ] [2025-05-22 00:33:56,352] [pre_fuzz.py:59 ] b' From: <Oscar@attack.com>\r\nFrom:,<key@outlook.com>,key@ymail.com.cn,(hi),,,webmaster@ymail.com\r\n'
+[DEBUG  ] [2025-05-22 00:33:56,352] [pre_fuzz.py:59 ] b' FrOM: <Oscar@attack.com>\r\nFrom:,<key@outlook.com>,key@ymail.com.cn,(hi),,,webmaster@ymail.com\r\n'
+[DEBUG  ] [2025-05-22 00:33:56,352] [pre_fuzz.py:59 ] b' From\xc3\xbf: <Oscar@attack.com>\r\nFrom:,<key@outlook.com>,key@ymail.com.cn,(hi),,,webmaster@ymail.com\r\n'
+[DEBUG  ] [2025-05-22 00:33:56,352] [pre_fuzz.py:59 ] b'From: <=?utf-8?RnJvbTosPGtleUBvdXRsb29rLmNvbT4sa2V5QHltYWlsLmNvbS5jbiwoaGkpLCwsd2VibWFzdGVyQHltYWlsLmNvbQ0K=?=>'
+[DEBUG  ] [2025-05-22 00:33:56,352] [pre_fuzz.py:59 ] b'From: <=?utf-8?RnJvbTosPGtleUBvdXRsb29rLmNvbT4sa2V5QHltYWlsLmNvbS5jbiwoaGkpLCwsd2VibWFzdGVyQHltYWlsLmNvbQ0K=?=>\x00@attack.com'
+[DEBUG  ] [2025-05-22 00:33:56,352] [pre_fuzz.py:59 ] b'From:<Alice@a.com\x00attack.com>'
+[DEBUG  ] [2025-05-22 00:33:56,352] [pre_fuzz.py:59 ] b'From:<Alice@a.com\xef\xbf\xbfattack.com>'
+[DEBUG  ] [2025-05-22 00:33:56,353] [pre_fuzz.py:59 ] b'From:<Alice@a.com}attack.com>'
+[DEBUG  ] [2025-05-22 00:33:56,353] [pre_fuzz.py:59 ] b'From:<\xe2\x80\xaemoc.a@\xe2\x80\xadalice'
+[DEBUG  ] [2025-05-22 00:33:56,353] [pre_fuzz.py:59 ] b'From :Mike@ymail.com,Mike@ymail.com.cn\r\n'
+[DEBUG  ] [2025-05-22 00:33:56,353] [pre_fuzz.py:59 ] b'From: Mike@ymail.com,Mike@ymail.com.cn\r\n'
+[DEBUG  ] [2025-05-22 00:33:56,353] [pre_fuzz.py:59 ] b' From:Mike@ymail.com,Mike@ymail.com.cn\r\n'
+[DEBUG  ] [2025-05-22 00:33:56,353] [pre_fuzz.py:59 ] b'From: <admin1@xn--80aa1cn6g67a.com>'
+[DEBUG  ] [2025-05-22 00:33:56,353] [pre_fuzz.py:59 ] b'From: <Oscar@attack.com>\r\nFrom:Mike@ymail.com,Mike@ymail.com.cn\r\n'
+[DEBUG  ] [2025-05-22 00:33:56,353] [pre_fuzz.py:59 ] b' From: <Oscar@attack.com>\r\nFrom:Mike@ymail.com,Mike@ymail.com.cn\r\n'
+[DEBUG  ] [2025-05-22 00:33:56,353] [pre_fuzz.py:59 ] b' FrOM: <Oscar@attack.com>\r\nFrom:Mike@ymail.com,Mike@ymail.com.cn\r\n'
+[DEBUG  ] [2025-05-22 00:33:56,353] [pre_fuzz.py:59 ] b' From\xc3\xbf: <Oscar@attack.com>\r\nFrom:Mike@ymail.com,Mike@ymail.com.cn\r\n'
+[DEBUG  ] [2025-05-22 00:33:56,353] [pre_fuzz.py:59 ] b'From: <=?utf-8?RnJvbTpNaWtlQHltYWlsLmNvbSxNaWtlQHltYWlsLmNvbS5jbg0K=?=>'
+[DEBUG  ] [2025-05-22 00:33:56,353] [pre_fuzz.py:59 ] b'From: <=?utf-8?RnJvbTpNaWtlQHltYWlsLmNvbSxNaWtlQHltYWlsLmNvbS5jbg0K=?=>\x00@attack.com'
+[DEBUG  ] [2025-05-22 00:33:56,353] [pre_fuzz.py:59 ] b'From:<Alice@a.com\x00attack.com>'
+[DEBUG  ] [2025-05-22 00:33:56,353] [pre_fuzz.py:59 ] b'From:<Alice@a.com\xef\xbf\xbfattack.com>'
+[DEBUG  ] [2025-05-22 00:33:56,353] [pre_fuzz.py:59 ] b'From:<Alice@a.com}attack.com>'
+[DEBUG  ] [2025-05-22 00:33:56,353] [pre_fuzz.py:59 ] b'From:<\xe2\x80\xaemoc.a@\xe2\x80\xadalice'
+[DEBUG  ] [2025-05-22 00:33:56,353] [pre_fuzz.py:59 ] b'From :hr@outlook.com\r\n'
+[DEBUG  ] [2025-05-22 00:33:56,353] [pre_fuzz.py:59 ] b'From: hr@outlook.com\r\n'
+[DEBUG  ] [2025-05-22 00:33:56,353] [pre_fuzz.py:59 ] b' From:hr@outlook.com\r\n'
+[DEBUG  ] [2025-05-22 00:33:56,353] [pre_fuzz.py:59 ] b'From: <admin1@xn--80aa1cn6g67a.com>'
+[DEBUG  ] [2025-05-22 00:33:56,353] [pre_fuzz.py:59 ] b'From: <Oscar@attack.com>\r\nFrom:hr@outlook.com\r\n'
+[DEBUG  ] [2025-05-22 00:33:56,353] [pre_fuzz.py:59 ] b' From: <Oscar@attack.com>\r\nFrom:hr@outlook.com\r\n'
+[DEBUG  ] [2025-05-22 00:33:56,353] [pre_fuzz.py:59 ] b' FrOM: <Oscar@attack.com>\r\nFrom:hr@outlook.com\r\n'
+[DEBUG  ] [2025-05-22 00:33:56,353] [pre_fuzz.py:59 ] b' From\xc3\xbf: <Oscar@attack.com>\r\nFrom:hr@outlook.com\r\n'
+[DEBUG  ] [2025-05-22 00:33:56,354] [pre_fuzz.py:59 ] b'From: <=?utf-8?RnJvbTpockBvdXRsb29rLmNvbQ0K=?=>'
+[DEBUG  ] [2025-05-22 00:33:56,354] [pre_fuzz.py:59 ] b'From: <=?utf-8?RnJvbTpockBvdXRsb29rLmNvbQ0K=?=>\x00@attack.com'
+[DEBUG  ] [2025-05-22 00:33:56,354] [pre_fuzz.py:59 ] b'From:<Alice@a.com\x00attack.com>'
+[DEBUG  ] [2025-05-22 00:33:56,354] [pre_fuzz.py:59 ] b'From:<Alice@a.com\xef\xbf\xbfattack.com>'
+[DEBUG  ] [2025-05-22 00:33:56,354] [pre_fuzz.py:59 ] b'From:<Alice@a.com}attack.com>'
+[DEBUG  ] [2025-05-22 00:33:56,354] [pre_fuzz.py:59 ] b'From:<\xe2\x80\xaemoc.a@\xe2\x80\xadalice'
+[DEBUG  ] [2025-05-22 00:33:56,354] [pre_fuzz.py:59 ] b'From :(comment)<@a.com:@b.com:Mike@msn.com>,\r\n'
+[DEBUG  ] [2025-05-22 00:33:56,354] [pre_fuzz.py:59 ] b'From: (comment)<@a.com:@b.com:Mike@msn.com>,\r\n'
+[DEBUG  ] [2025-05-22 00:33:56,354] [pre_fuzz.py:59 ] b' From:(comment)<@a.com:@b.com:Mike@msn.com>,\r\n'
+[DEBUG  ] [2025-05-22 00:33:56,354] [pre_fuzz.py:59 ] b'From: <admin1@xn--80aa1cn6g67a.com>'
+[DEBUG  ] [2025-05-22 00:33:56,354] [pre_fuzz.py:59 ] b'From: <Oscar@attack.com>\r\nFrom:(comment)<@a.com:@b.com:Mike@msn.com>,\r\n'
+[DEBUG  ] [2025-05-22 00:33:56,354] [pre_fuzz.py:59 ] b' From: <Oscar@attack.com>\r\nFrom:(comment)<@a.com:@b.com:Mike@msn.com>,\r\n'
+[DEBUG  ] [2025-05-22 00:33:56,354] [pre_fuzz.py:59 ] b' FrOM: <Oscar@attack.com>\r\nFrom:(comment)<@a.com:@b.com:Mike@msn.com>,\r\n'
+[DEBUG  ] [2025-05-22 00:33:56,354] [pre_fuzz.py:59 ] b' From\xc3\xbf: <Oscar@attack.com>\r\nFrom:(comment)<@a.com:@b.com:Mike@msn.com>,\r\n'
+[DEBUG  ] [2025-05-22 00:33:56,354] [pre_fuzz.py:59 ] b'From: <=?utf-8?RnJvbTooY29tbWVudCk8QGEuY29tOkBiLmNvbTpNaWtlQG1zbi5jb20+LA0K=?=>'
+[DEBUG  ] [2025-05-22 00:33:56,354] [pre_fuzz.py:59 ] b'From: <=?utf-8?RnJvbTooY29tbWVudCk8QGEuY29tOkBiLmNvbTpNaWtlQG1zbi5jb20+LA0K=?=>\x00@attack.com'
+[DEBUG  ] [2025-05-22 00:33:56,354] [pre_fuzz.py:59 ] b'From:<Alice@a.com\x00attack.com>'
+[DEBUG  ] [2025-05-22 00:33:56,354] [pre_fuzz.py:59 ] b'From:<Alice@a.com\xef\xbf\xbfattack.com>'
+[DEBUG  ] [2025-05-22 00:33:56,354] [pre_fuzz.py:59 ] b'From:<Alice@a.com}attack.com>'
+[DEBUG  ] [2025-05-22 00:33:56,354] [pre_fuzz.py:59 ] b'From:<\xe2\x80\xaemoc.a@\xe2\x80\xadalice'
+[INFO   ] [2025-05-22 00:34:14,018] [spoofing.py:103] Name			Description	
+[INFO   ] [2025-05-22 00:34:14,018] [spoofing.py:104] ----------------------------------------------------------------------------------------------------
+[INFO   ] [2025-05-22 00:34:14,018] [spoofing.py:108] default			None
+[INFO   ] [2025-05-22 00:34:14,018] [spoofing.py:108] A1			A1: The Inconsistency between Auth username and Mail From headers.
+[INFO   ] [2025-05-22 00:34:14,018] [spoofing.py:108] A2.1			A2.1: The Inconsistency between Mail From and From headers, with different username.
+[INFO   ] [2025-05-22 00:34:14,018] [spoofing.py:108] A2.2			A2.2: The Inconsistency between Mail From and From headers, with different username.
+[INFO   ] [2025-05-22 00:34:14,018] [spoofing.py:108] A3			A3: Empty Mail From Attack.
+[INFO   ] [2025-05-22 00:34:14,018] [spoofing.py:108] A4			A4: Multiple From Headers.
+[INFO   ] [2025-05-22 00:34:14,019] [spoofing.py:108] A5			A5: Multiple From Headers.
+[INFO   ] [2025-05-22 00:34:14,019] [spoofing.py:108] A6			A6: Parsing Inconsistencies Attacks.
+[INFO   ] [2025-05-22 00:34:14,019] [spoofing.py:108] A7			A7: Encoding Based Attack.
+[INFO   ] [2025-05-22 00:34:14,019] [spoofing.py:108] A8			A8: The Subdomain Attack.
+[INFO   ] [2025-05-22 00:34:14,019] [spoofing.py:108] A12.1			A12.1: IDN Homograph Attack with IDN domain.
+[INFO   ] [2025-05-22 00:34:14,019] [spoofing.py:108] A12.2			A12.2: IDN Homograph Attack with IDN username.
+[INFO   ] [2025-05-22 00:34:14,019] [spoofing.py:108] A13			A13: Missing UI Rendering Attack
+[INFO   ] [2025-05-22 00:34:14,019] [spoofing.py:108] A14.1			A14: Right-to-left Override Attack in username.
+[INFO   ] [2025-05-22 00:34:14,019] [spoofing.py:108] A14.2			A14: Right-to-left Override Attack in domain.
+[INFO   ] [2025-05-22 00:34:14,019] [spoofing.py:109] ----------------------------------------------------------------------------------------------------
+[INFO   ] [2025-05-22 00:38:32,840] [sender.py:96 ] 
+Sender Config:
+    - mode: direct
+    - host: 163.com
+    - port: 25
+    - username: nislemail@163.com
+    - password: None
+    - use_tls: False
+    - use_ssl: False
+    - debug_level: True
+        
+[INFO   ] [2025-05-22 00:38:32,841] [sender.py:289] 
+Message Config:
+- helo: None
+- mail from: default@mail.spoofing.com
+- mail to: ['test@example.com']  
+- email content:
+Content-Type: text/plain; charset="utf-8"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Subject: =?utf-8?q?=5BWarning=5D_Maybe_you_are_vulnerable_to_the_A2_attack!?=
+Date: Thu, 22 May 2025 00:38:32 -0400
+Message-ID: <174788871284.8813.17655126246547500857@mail.spoofing.com>
+From: Oscar@mail.spoofing.com
+To: test@example.com
+
+A2.1: The Inconsistency between Mail From and From headers, with different username.
+        
+[INFO   ] [2025-05-22 00:39:49,830] [sender.py:96 ] 
+Sender Config:
+    - mode: direct
+    - host: 163.com
+    - port: 25
+    - username: nislemail@163.com
+    - password: None
+    - use_tls: False
+    - use_ssl: False
+    - debug_level: True
+        
+[INFO   ] [2025-05-22 00:39:49,831] [sender.py:289] 
+Message Config:
+- helo: None
+- mail from: default@mail.spoofing.com
+- mail to: ['test@example.com']  
+- email content:
+Content-Type: text/plain; charset="utf-8"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Subject: =?utf-8?q?=5BWarning=5D_Maybe_you_are_vulnerable_to_the_A2_attack!?=
+Date: Thu, 22 May 2025 00:39:49 -0400
+Message-ID: <174788878983.9049.1194105680071348180@paypal.com>
+From: service@paypal.com
+To: test@example.com
+
+A2.1: The Inconsistency between Mail From and From headers, with different username.
+        
+[ERROR  ] [2025-05-22 00:40:44,032] [spoofing.py:31 ] Usage: python spoofing.py [Options] use -h for help
+[ERROR  ] [2025-05-22 00:40:44,032] [spoofing.py:32 ] Error: [Errno 110] Connection timed out
+[ERROR  ] [2025-05-22 00:41:59,807] [spoofing.py:31 ] Usage: python spoofing.py [Options] use -h for help
+[ERROR  ] [2025-05-22 00:41:59,807] [spoofing.py:32 ] Error: [Errno 110] Connection timed out

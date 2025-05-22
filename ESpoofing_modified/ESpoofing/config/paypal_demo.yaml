@@ -1,0 +1,68 @@
+default: # Set some Global default values
+  subject: "Your PayPal account: Action required"
+  body: "This is a demonstration of how spoofed PayPal emails might appear. This is for educational purposes only."
+
+
+target: #target victim
+  default:
+    username: 'test@example.com'
+    host: example.com
+    port: 25
+    use_tls: False
+    use_ssl: False
+    debug_level: True
+
+
+smtp_user:
+  default:
+    username: test@example.com
+    password: testpassword
+    host: localhost
+    port: 25
+    use_tls: False
+    use_ssl: False
+    debug_level: True
+
+
+attack:
+  default:
+    subject: "Your PayPal account: Action required"
+    body: "Dear valued customer,\n\nWe've noticed some unusual activity on your PayPal account. Please verify your information by clicking the link below.\n\nThis is a demonstration of how spoofed PayPal emails might appear. This is for educational purposes only."
+    html: "<html><body><p>Dear valued customer,</p><p>We've noticed some unusual activity on your PayPal account. Please verify your information by clicking the link below.</p><p><strong>This is a demonstration of how spoofed PayPal emails might appear. This is for educational purposes only.</strong></p></body></html>"
+    attachments:
+    date:
+    mail_from:
+    mime_from:
+    to:
+    cc:
+    bcc:
+    reply_to:
+    mail_to:
+    extra_headers:
+    helo:
+    autoencode: False
+
+  # A2.1 attack for PayPal demonstration
+  A2.1:
+    mime_from: "service@paypal.com"
+    subject: "Your PayPal account: Action required"
+    body: "Dear valued customer,\n\nWe've noticed some unusual activity on your PayPal account. Please verify your information by clicking the link below.\n\nThis is a demonstration of how spoofed PayPal emails might appear. This is for educational purposes only."
+    html: "<html><body><p>Dear valued customer,</p><p>We've noticed some unusual activity on your PayPal account. Please verify your information by clicking the link below.</p><p><strong>This is a demonstration of how spoofed PayPal emails might appear. This is for educational purposes only.</strong></p></body></html>"
+    description: "A2.1: The Inconsistency between Mail From and From headers, with different username."
+    
+  # A8 attack for PayPal demonstration
+  A8:
+    mail_from: "service@paypal-security.com"
+    mime_from: "service@paypal.com"
+    subject: "Your PayPal account: Action required"
+    body: "Dear valued customer,\n\nWe've noticed some unusual activity on your PayPal account. Please verify your information by clicking the link below.\n\nThis is a demonstration of how spoofed PayPal emails might appear. This is for educational purposes only."
+    html: "<html><body><p>Dear valued customer,</p><p>We've noticed some unusual activity on your PayPal account. Please verify your information by clicking the link below.</p><p><strong>This is a demonstration of how spoofed PayPal emails might appear. This is for educational purposes only.</strong></p></body></html>"
+    description: "A8: The Subdomain Attack."
+    
+  # A12.1 attack for PayPal demonstration
+  A12.1:
+    mime_from: "service@рaypal.com"
+    subject: "Your PayPal account: Action required"
+    body: "Dear valued customer,\n\nWe've noticed some unusual activity on your PayPal account. Please verify your information by clicking the link below.\n\nThis is a demonstration of how spoofed PayPal emails might appear. This is for educational purposes only."
+    html: "<html><body><p>Dear valued customer,</p><p>We've noticed some unusual activity on your PayPal account. Please verify your information by clicking the link below.</p><p><strong>This is a demonstration of how spoofed PayPal emails might appear. This is for educational purposes only.</strong></p></body></html>"
+    description: "A12.1: IDN Homograph Attack with IDN domain."
